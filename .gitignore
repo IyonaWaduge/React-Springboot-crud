@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/inventrymanagement/node_modules
+/inventrymanagement/.pnp
+/inventrymanagement/.pnp.js
+
+# testing
+/inventrymanagement/coverage
+
+# production
+/inventrymanagement/build
+
+# misc
+/inventrymanagement/.DS_Store
+/inventrymanagement/.env.local
+/inventrymanagement/.env.development.local
+/inventrymanagement/.env.test.local
+/inventrymanagement/.env.production.local
+
+/inventrymanagement/npm-debug.log*
+/inventrymanagement/yarn-debug.log*
+/inventrymanagement/yarn-error.log*

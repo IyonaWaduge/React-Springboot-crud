@@ -1,0 +1,5 @@
+com\StockManagement\StockManagementSystem\repository\ItemRepository.class
+com\StockManagement\StockManagementSystem\StockManagementSystemApplication.class
+com\StockManagement\StockManagementSystem\service\ItemService.class
+com\StockManagement\StockManagementSystem\controller\ItemController.class
+com\StockManagement\StockManagementSystem\entity\Item.class

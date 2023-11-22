@@ -1,0 +1,86 @@
+* {
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans";
+  
+    
+}
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+}
+.cover {
+  margin: auto;
+  background-color: rgb(183, 222, 238);
+  width: 400px;
+  height: 450px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 2px 3px 23px 15px rgb(190, 189, 194);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  
+  
+}
+.loginBtn{
+  width: 40%;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(35, 140, 231);
+  justify-content: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+ 
+}
+.loginBtn:hover{transform:scale(1.25);}
+input{
+  font-size: 18px;
+  font-weight: 4px;
+  border: none;
+  background-color: aliceblue;
+  height: 4em;
+  width: 80%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 1em;
+}
+input:focus{
+  outline-color: rgb(189, 231, 248);
+}
+.text{
+  position: relative;
+  bottom: -2em;
+  
+  
+}
+.login-popup{
+  position: absolute;
+  height: 30em;
+  width:30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25em;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  transform:scale(1);
+  transform: 1.5s;
+
+
+}
+.hide{
+  position: absolute;
+  transform: scale(0);
+}
